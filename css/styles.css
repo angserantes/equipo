@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montagu Slab', serif;
+    background: url(/img/balonfondo.jpg);
+    height: 900px;
+    font-size: 25px;
+}
+
+.cabecera {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 80px;
+    letter-spacing: 2px;
+}
+
+img {
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+    columns: 3;
+}
+
+.jugador1 {
+    margin: auto;
+    text-align: center;
+    background-color: #D7CFCD;
+    border-radius: 10px;
+}
+
+.jugador2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #D7CFCD;
+    border-radius: 10px;
+}
+
+.jugador3 {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #D7CFCD;
+    border-radius: 10px;
+}
+
+.altura {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    animation: cardAnim 2s 3s backwards;
+}
+
+.altura1 {
+    color: black;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.circulo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 4px solid;
+}
+
+.myButton {
+    box-shadow: inset 0px 2px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    background-color: #dfbdfa;
+    border-radius: 6px;
+    border: 1px solid #c584f3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9752cc;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+    background-color: #bc80ea;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
